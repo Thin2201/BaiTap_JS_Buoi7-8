@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài Tập JS Buổi 7-8</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="bai01 text-center my-10">
+        <h1 class="text-red-500 text-2xl font-bold">Bài tập JS Buổi 7 8</h1>
+
+        <div class="top py-5">
+          <h3 class="text-xl">Nhập các số có trong mảng:</h3>
+          <input type="text" id="number" class="border" />
+        </div>
+        <div class="btn">
+          <button
+            class="btnTong text-white bg-slate-500 rounded-xl mx-3 px-3"
+            onclick="TongSoDuong()"
+          >
+            Tính Tổng
+          </button>
+          <button
+            class="btnTong text-white bg-slate-500 rounded-xl mx-3 px-3"
+            onclick="DemSoDuong()"
+          >
+            Đếm số dương
+          </button>
+          <button
+            class="btnTong text-white bg-slate-500 rounded-xl mx-3 px-3"
+            onclick="SoNhoNhat()"
+          >
+            Tìm số nhỏ nhất
+          </button>
+          <button
+            class="btnTong text-white bg-slate-500 rounded-xl mx-3 px-3"
+            onclick="SoDuongNhoNhat()"
+          >
+            Tìm số dương nhỏ nhất
+          </button>
+          <button
+            class="btnTong text-white bg-slate-500 rounded-xl mx-3 px-3"
+            onclick="SoChanCuoiCung()"
+          >
+            Số chẵn cuối cùng
+          </button>
+        </div>
+
+        <p id="result"></p>
+        <p id="result2"></p>
+        <p id="result3"></p>
+        <p id="result4"></p>
+        <p id="result5"></p>
+      </div>
+    </div>
+
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
